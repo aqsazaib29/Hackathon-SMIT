@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styling/style.css">
+    <script src="https://kit.fontawesome.com/08996d0352.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="Images/logo-removebg-preview.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Business Solutions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Explore
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i>English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Become a seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn  border">Join</button>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousal -->
+        <div class="Carousal">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/christina-2x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="Images/jenny-2x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="Images/jordan-2x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/scarlett-2x.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider text -->
+            <div class="slider-text text-light">
+                <h1>Find the right <i>freelance</i> service, right away</h1>
+                <div class="input-group mb-3 mt-3 rounded-0">
+                    <input type="text" class="form-control placeholder=" Search for Any Service"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="slider-text-btn d-flex">
+                    <p>Popular:</p>
+                    <button class="rounded-5 border-ligh e" type="button" class="btn  border">Webiste Design</button>
+                    <button class="rounded-5 border-light " type="button" class="btn  border">Wordpress</button>
+                    <button class="rounded-5 border-light " type="button" class="btn  border">Logo Design</button>
+                    <button class="rounded-5 border-light " type="button" class="btn  border">AI Service</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="trusted  d-flex justify-content-center pt-3">
+            <p class=" mt-2 pe-5">Trusted by:</p>
+            <img class="pe-5 " src="Images/meta.12b5e5c.png" alt="">
+            <img class="pe-5 " src="Images/google.61e78c8.png" alt="">
+            <img class="pe-5 " src="Images/netflix.96c5e3f.png" alt="">
+            <img class="pe-5 " src="Images/pandg.0f4cfc2.png" alt="">
+            <img class="pe-5 " src="Images/paypal.305e264.png" alt="">
+        </div>
+    </header>
+
+
+    <!-- Carousal -->
+    <div class="container gigs ">
+        <h1 class="mb-5">Popular Services</h1>
+        <div id="carouselExample" class="carousel slide carousal-gigs">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex items">
+                        <div>
+                            <div>
+                                <p>Add talent to AI</p>
+                                <h4>AI Artists</h4>
+                            </div>
+                            <img src="Images/ai-artists-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Learn your Business</p>
+                                <h4>Data Entry</h4>
+                            </div>
+                            <img src="Images/data-entry-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Color your dreams</p>
+                                <h4>Illustration</h4>
+                            </div>
+                            <img src="Images/illustration-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Engage your audience</p>
+                                <h4>Video Player</h4>
+                            </div>
+                            <img src="Images/animated-explainer-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Customize your site</p>
+                                <h4>Wordpress</h4>
+                            </div>
+                            <img src="Images/wordpress-2x.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex items">
+                        <div>
+                            <div>
+                                <p>Add talent to AI</p>
+                                <h4>AI Artists</h4>
+                            </div>
+                            <img src="Images/ai-artists-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Learn your Business</p>
+                                <h4>Data Entry</h4>
+                            </div>
+                            <img src="Images/data-entry-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Color your dreams</p>
+                                <h4>Illustration</h4>
+                            </div>
+                            <img src="Images/illustration-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Engage your audience</p>
+                                <h4>Video Player</h4>
+                            </div>
+                            <img src="Images/animated-explainer-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Customize your site</p>
+                                <h4>Wordpress</h4>
+                            </div>
+                            <img src="Images/wordpress-2x.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex items">
+                        <div>
+                            <div>
+                                <p>Add talent to AI</p>
+                                <h4>AI Artists</h4>
+                            </div>
+                            <img src="Images/ai-artists-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Learn your Business</p>
+                                <h4>Data Entry</h4>
+                            </div>
+                            <img src="Images/data-entry-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Color your dreams</p>
+                                <h4>Illustration</h4>
+                            </div>
+                            <img src="Images/illustration-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Engage your audience</p>
+                                <h4>Video Player</h4>
+                            </div>
+                            <img src="Images/animated-explainer-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Customize your site</p>
+                                <h4>Wordpress</h4>
+                            </div>
+                            <img src="Images/wordpress-2x.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex items">
+                        <div>
+                            <div>
+                                <p>Add talent to AI</p>
+                                <h4>AI Artists</h4>
+                            </div>
+                            <img src="Images/ai-artists-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Learn your Business</p>
+                                <h4>Data Entry</h4>
+                            </div>
+                            <img src="Images/data-entry-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Color your dreams</p>
+                                <h4>Illustration</h4>
+                            </div>
+                            <img src="Images/illustration-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Engage your audience</p>
+                                <h4>Video Player</h4>
+                            </div>
+                            <img src="Images/animated-explainer-2x.png" alt="...">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Customize your site</p>
+                                <h4>Wordpress</h4>
+                            </div>
+                            <img src="Images/wordpress-2x.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="video-div container-fluid d-flex">
+        <div class="d-flex flex-column">
+            <h1>The best part? Everything.</h1>
+            <div class="d-flex"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Stick to your budget</h5>
+            </div>
+            <p>Find the right service for every price point. No hourly rates, just project-based pricing.</p>
+
+            <div class="d-flex"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Get quality work done quickly</h5>
+            </div>
+            <p>Hand your project over to a talented freelancer in minutes, get long-lasting results.</p>
+
+            <div class="d-flex"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Pay when you're happy</h5>
+            </div>
+            <p>Upfront quotes mean no surprises. Payments only get released when you approve</p>
+
+            <div class="d-flex"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Count on 24/7 support</h5>
+            </div>
+            <p>Our round-the-clock support team is available to help anytime, anywhere</p>
+        </div>
+        <img src="Images/selling-proposition-still-1400-x1.png" alt="">
+    </div>
+
+    <div class="need-cont container mt-5 mb-5">
+        <h1>You need it, we've got it</h1>
+        <div class="need-cont-card">
+            <div class="each-card"><img src="Images/graphics-design.91dfe44.svg" alt="">
+                <p>Grapgice & Design</p>
+            </div>
+            <div class="each-card"><img src="Images/online-marketing.a3e9794.svg" alt="">
+                <p>Digital Marketing</p>
+            </div>
+            <div class="each-card"><img src="Images/writing-translation.a787f2f.svg" alt="">
+                <p>Writing & Translation</p>
+            </div>
+            <div class="each-card"><img src="Images/video-animation.1356999.svg" alt="">
+                <p>Video & Animation</p>
+            </div>
+            <div class="each-card"><img src="Images/music-audio.ede4c90.svg" alt="">
+                <p>Music & Audio</p>
+            </div>
+        </div>
+        <div class="need-cont-card">
+            <div class="each-card"><img src="Images/programming.6ee5a90.svg" alt="">
+                <p>Programming & Tech</p>
+            </div>
+            <div class="each-card"><img src="Images/business.fabc3a7.svg" alt="">
+                <p>Business</p>
+            </div>
+            <div class="each-card"><img src="Images/lifestyle.112b348.svg" alt="">
+                <p>Lifestyle</p>
+            </div>
+            <div class="each-card"><img src="Images/data.855fe95.svg" alt="">
+                <p>Data</p>
+            </div>
+            <div class="each-card"><img src="Images/photography.0cf5a3f.svg" alt="">
+                <p>PhotographyPhotography</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Blue -->
+    <div class="blue d-flex ">
+        <div class="d-flex flex-column blue-div1">
+            <div class="d-flex blue-div">
+                <img src="Images/logo-fiver.png" alt="">
+                <p>Business Solutions</p>
+            </div>
+            <div class="blue-h1">
+                <h1>Advanced solutions and professional talent for businesses</h1>
+            </div>
+
+            <div class="d-flex blue-div-icon"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Fiverr Pro</h5>
+            </div>
+            <p>Access top freelancers and professional business tools for any project</p>
+
+            <div class="d-flex blue-div-icon"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Fiverr Certified</h5>
+            </div>
+            <p>Build your own branded marketplace of certified experts</p>
+
+            <div class="d-flex blue-div-icon"><i class="fa-solid fa-check mt-1 me-2"></i>
+                <h5>Fiverr Enterprise</h5>
+            </div>
+            <p>Manage your freelance workforce and onboard additional talent with an end-to-end SaaS solution</p>
+            <button type="button" class="btn btn-light">Learn More</button>
+        </div>
+        <img class="blue-div2" src="Images/EN.png" alt="">
+
+    </div>
+
+
+    <div class="Carousal-video ">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex">
+                        <img alt="Company logo" src="Images/testimonial-video-still-rooted.jpg">
+                        <div class="ms-5 mt-3">
+                            <div class="rooted d-flex">
+                                <h5>Kay Kim, Co-Founder</h5><img src="Images/rooted-logo-x2.7da3bc9.png" alt="">
+                            </div>
+                            <p><i>"It's extremely exciting that Fiverr has freelancers from
+                                    all over the world — it broadens the talent pool. One of the best things about
+                                    Fiverr is
+                                    that while we're sleeping, someone's working."</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" d-flex">
+                        <img alt="Company logo" src="Images/testimonial-video-still-haerfest.jpg">
+                        <div class="ms-5 mt-3">
+                            <div class="rooted d-flex">
+                                <h5>Tim and Dan Joo, Co-Founders</h5><img
+                                    src="Images/testimonial-video-still-haerfest.jpg" alt="">
+                            </div>
+                            <p><i>"When you want to create a business bigger than yourself, you need a lot of help.
+                                    That's what Fiverr does."</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Carousal
+    <div class="container gigs ">
+        <h1 class="mb-5">Popular Services</h1>
+        <div id="carouselExample" class="carousel slide carousal-gigs">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex items">
+                        <div>
+                            <p>Add talent to AI</p>
+                            <h4>AI Artists</h4>
+                        </div>
+                        <img src="Images/ai-artists-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Learn your Business</p>
+                            <h4>Data Entry</h4>
+                        </div>
+                        <img src="Images/data-entry-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Color your dreams</p>
+                            <h4>Illustration</h4>
+                        </div>
+                        <img src="Images/illustration-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Engage your audience</p>
+                            <h4>Video Player</h4>
+                        </div>
+                        <img src="Images/animated-explainer-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Customize your site</p>
+                            <h4>Wordpress</h4>
+                        </div>
+                        <img src="Images/wordpress-2x.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex items">
+                    <div>
+                        <div>
+                            <p>Add talent to AI</p>
+                            <h4>AI Artists</h4>
+                        </div>
+                        <img src="Images/ai-artists-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Learn your Business</p>
+                            <h4>Data Entry</h4>
+                        </div>
+                        <img src="Images/data-entry-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Color your dreams</p>
+                            <h4>Illustration</h4>
+                        </div>
+                        <img src="Images/illustration-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Engage your audience</p>
+                            <h4>Video Player</h4>
+                        </div>
+                        <img src="Images/animated-explainer-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Customize your site</p>
+                            <h4>Wordpress</h4>
+                        </div>
+                        <img src="Images/wordpress-2x.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex items">
+                    <div>
+                        <div>
+                            <p>Add talent to AI</p>
+                            <h4>AI Artists</h4>
+                        </div>
+                        <img src="Images/ai-artists-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Learn your Business</p>
+                            <h4>Data Entry</h4>
+                        </div>
+                        <img src="Images/data-entry-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Color your dreams</p>
+                            <h4>Illustration</h4>
+                        </div>
+                        <img src="Images/illustration-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Engage your audience</p>
+                            <h4>Video Player</h4>
+                        </div>
+                        <img src="Images/animated-explainer-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Customize your site</p>
+                            <h4>Wordpress</h4>
+                        </div>
+                        <img src="Images/wordpress-2x.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex items">
+                    <div>
+                        <div>
+                            <p>Add talent to AI</p>
+                            <h4>AI Artists</h4>
+                        </div>
+                        <img src="Images/ai-artists-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Learn your Business</p>
+                            <h4>Data Entry</h4>
+                        </div>
+                        <img src="Images/data-entry-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Color your dreams</p>
+                            <h4>Illustration</h4>
+                        </div>
+                        <img src="Images/illustration-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Engage your audience</p>
+                            <h4>Video Player</h4>
+                        </div>
+                        <img src="Images/animated-explainer-2x.png" alt="...">
+                    </div>
+                    <div>
+                        <div>
+                            <p>Customize your site</p>
+                            <h4>Wordpress</h4>
+                        </div>
+                        <img src="Images/wordpress-2x.png" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div> -->
+
+
+    <div class="guides container">
+        <h5>Guides to help you grow</h5>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex guides-div">
+                        <div>
+                            <img src="Images/home based online business-fiverr.jpg" alt="...">
+                        <p>Start a side business</p>
+                        </div>
+                        <div>
+                            <img src="Images/side hustle.jpeg"  alt="...">
+                            <p>Ecommerce business ideas</p>
+                        </div>
+                        <div>
+                            <img src="Images/1685561103924-12profitableecommercebusinessideasyoucanstarttoday.jpg" alt="">
+                        <p>Work efficiently</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <div class="brown">
+        <img src="Images/bg-signup-1400-x1.png" alt="">
+        <div d-flex flex-column><p>Suddenly It's all so <i>Doable</i></p>
+        <button>Join Fiver</button></div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Freelancers</a></li>
+                    <li><a href="#">Businesses</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Fiverr Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+.navbar-brand img{
+    height: 120%;
+    width: 60%;
+}
+nav{
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent; /* Red with 50% transparency */
+    z-index: 1;  
+    height: 50px;
+}
+.navbar-nav{
+    margin-right: 5%;
+}
+.carousal{
+    position: relative;
+}
+.carousal img{
+    height: 300px;
+}
+nav-item  button{
+    font-weight: bold;
+}
+nav-item button:hover{
+    background-color: #19A463;
+
+}
+.slider-text{
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0% 8% 0% 12%;
+}
+.slider-text h1{
+    font-weight: bold;
+}
+.slider-text .input-group span{
+    color: white;
+    background-color: #19A463;
+}
+.silder-text-btn button{
+    height: 5px;
+    width: 10px;
+    background:transparent;
+}
+.trusted{
+    background-color: #F5F5F5;
+}
+.trusted img{
+    height: 40px;
+}
+.trusted p{
+    font-weight: bold;
+    color: #CACBCD;
+    font-size: 12px;
+}
+.items{
+    width: 100%;
+}
+.items div{
+    height: 300px;
+    /* width: 300px; */
+    margin-left: 7px;  
+    position: relative;  
+}
+.items div img{
+    width: 90%;
+  
+    
+}
+.items div div{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    padding: 5% 2% 3% 2% ;
+    font-weight: bold;
+    
+
+}
+.items div div p{
+    margin-bottom:0;
+}
+
+.items div div h4{
+    margin-top: 0;
+    padding-top:0 ;
+    font-size: 16px;
+}
+.gigs{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.video-div{
+    background-color: #F1FDF7;
+    height: 550px;
+    
+}
+.video-div img{
+    width: 500px;
+    height: 300px;
+    margin: 10% 10% 0% 3%;
+}
+.video-div div{
+    width: 350px;
+    height: 300px;
+    margin: 10% 10% 0% 10%;
+  
+}
+.video-div div div {
+    margin:  0% 5% 4% 0%;
+    height: 3%;
+   
+}
+.video-div div h1{
+    font-size: 26px;
+}
+.video-div div div h5{
+    font-size: 16px;
+}
+.video-div div p{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.need-cont{
+    margin: 5%
+    
+  }
+  .need-cont h1{
+   font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+   font-weight: 700;
+   Line-height: 38.4px;
+    color: rgb(64, 65, 69);
+    margin-bottom: 50px;
+  }
+  .need-cont-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .need-cont-card img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+  }
+  .each-card{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+.blue{
+    background-color: #0D084D;
+    height: 500px;
+    color: white;
+    padding-top: 0;
+    
+}
+
+.blue-div img{
+    height:80%;
+    width: 15%;
+}
+.blue-div2{
+    width: 400px;
+    height: 300px;
+    margin: 10% 5% 0% 2%;
+}
+.blue-div1{
+    width: 450px;
+    height: 300px;
+    margin: 10% 10% 0% 10%;
+}
+.blue-div-icon{
+    margin:  0% 5% 3% 0%;
+    height: 3%;
+}
+.blue-h1{
+    width: 80%;
+}
+.blue h1{
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.blue-div-icon h5{
+    font-size: 14px;
+}
+.blue-div-icon+p{
+    margin-top: 0;
+    font-size: 11px;
+}
+.blue button{
+    width: 25%;
+    padding: 1% 3% 1% 3%;
+    font-size: 10px;
+    font-weight: bold;
+    color: #616265;
+}
+
+.Carousal-video{
+    width: 70%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 5% 10% 5% 15%;
+}
+.Carousal-video img{
+    height: 40%;
+    width: 40%;
+}
+
+.Carousal-video p {
+    font-size: 20px;
+}
+.rooted h5{
+margin-top: 1%;
+border-right: 2px solid #cacaca ;
+padding-right: 2%;
+color: #cacaca;
+}
+.rooted img{
+    height: 10%;
+    width: 20%;
+    padding-left: 2%;
+
+}
+.guides{
+margin: 5%;
+
+}
+.guides-div div{
+    width:70%;
+    height: 30%;
+}
+.guides-div img{
+    height: 60%;
+    width: 90%;
+}
+.brown{
+    width:70%;
+    height: 20%;
+    position:relative;
+    color: white;
+    
+    
+}
+.brown div{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+.brown p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.brown button{
+    background-color: #19A463
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
